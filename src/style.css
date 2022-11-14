@@ -23,15 +23,13 @@ li {
 
 .app-box-wrapper {
   display: block;
-  margin: 0 auto;
+  margin: 30px auto;
+  max-width: 400px;
 }
 
 .app-box {
-  display: block;
-  margin: 30px auto;
   padding: 20px;
   border: 1px solid rebeccapurple;
-  max-width: 400px;
   border-radius: 5px;
   background-image: url("img/nasa-space-pic.jpg");
 }
