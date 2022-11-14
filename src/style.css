@@ -21,7 +21,12 @@ li {
   font-weight: 500;
 }
 
-.appBox {
+.app-box-wrapper {
+  display: block;
+  margin: 0 auto;
+}
+
+.app-box {
   display: block;
   margin: 30px auto;
   padding: 20px;
