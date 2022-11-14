@@ -32,20 +32,22 @@
         <div class="app-box">
           <div class="row">
             <div class="col-4">
+              <div class="flexbox">
+                <h1>
+                  <span id="temperature">26</span>
+                  <span class="temp-units"
+                    >C | <a href="#" id="fahrenheit">F</a>°</span
+                  >°
+                </h1>
+              </div>
               <ul>
-                <li id="description">Cloudy</li>
-                <div class="flexbox">
-                <li>
-                  <span class="current-temp" id="temperature">26</span>
-                  <span class="temp-units">C |
-                  <a href="#" id="fahrenheit">F</a>°</span>°
-                </li>
-                </div>
+                <li><span id="humidity">7</span>%</li>
                 <li><span id="wind"></span> Km/h</li>
               </ul>
             </div>
 
             <div class="col-4">
+              <p id="description">Cloudy</p>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="35"
