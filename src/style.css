@@ -8,7 +8,10 @@ h1 {
 }
 
 .appBox {
-  border: 1px solid rebeccapurple;
+  display: block;
+  margin: 30px auto;
+  border: 2px solid rebeccapurple;
+  box-sizing: 400px;
   border-radius: 5px;
   background-image: url("img/nasa-space-pic.jpg");
 }
