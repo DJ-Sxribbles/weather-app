@@ -36,5 +36,9 @@ li {
 .flexbox .temp-units {
   position: relative;
   font-size: 16px;
-  top: -16px;
+  top: -13px;
+}
+
+.center-icon {
+  text-align: center;
 }
