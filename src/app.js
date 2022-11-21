@@ -38,7 +38,7 @@ function displayTemperature(response) {
   descriptionElement.innerHTML = response.data.weather[0].description;
 
   let feelsElement = document.querySelector("#feels");
-  feelsElement.innerHTML = response.data.main.feels_like;
+  feelsElement.innerHTML = Math.round(response.data.main.feels_like);
 
   let dateElement = document.querySelector("#date");
   dateElement.innerHTML = formateDate(response.data.dt * 1000);
