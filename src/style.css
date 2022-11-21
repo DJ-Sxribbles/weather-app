@@ -28,6 +28,10 @@ li {
   font-weight: 500;
 }
 
+p {
+  text-transform: capitalize;
+}
+
 .app-box-wrapper {
   margin: 30px auto;
   max-width: 600px;
