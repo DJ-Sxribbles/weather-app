@@ -21,7 +21,8 @@ ul {
   padding: 0;
 }
 
-li {
+li,
+p {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -50,7 +51,7 @@ li {
 }
 
 .emoji {
-  font-size: 23px;
+  font-size: 45px;
 }
 
 .open-source {
