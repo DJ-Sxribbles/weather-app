@@ -49,6 +49,10 @@ li {
   text-align: center;
 }
 
+.emoji {
+  font-size: 23px;
+}
+
 .open-source {
   text-align: center;
 }
