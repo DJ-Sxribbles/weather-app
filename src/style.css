@@ -28,10 +28,6 @@ li {
   font-weight: 500;
 }
 
-p {
-  text-transform: capitalize;
-}
-
 .app-box-wrapper {
   margin: 30px auto;
   max-width: 600px;
@@ -50,9 +46,13 @@ p {
 }
 
 .center-icon {
-  padding-left: 20px;
+  text-align: center;
 }
 
 .open-source {
   text-align: center;
+}
+
+#description {
+  text-transform: capitalize;
 }
