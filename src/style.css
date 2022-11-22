@@ -58,6 +58,15 @@ p {
   text-align: center;
 }
 
+.flexbox .active {
+  color: black;
+  cursor: default;
+}
+
+.flexbox .active:hover {
+  text-decoration: none;
+}
+
 #description {
   text-transform: capitalize;
 }
