@@ -67,6 +67,22 @@ p {
   text-decoration: none;
 }
 
+.weather-forecast {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.weather-forecast-date {
+  font-weight: 16px;
+  color: #dba39a;
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
+}
+.weather-forecast-temp-min {
+  color: #f0dbdb;
+}
 #description {
   text-transform: capitalize;
 }
