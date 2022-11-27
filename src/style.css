@@ -32,13 +32,13 @@ p {
 .app-box-wrapper {
   margin: 30px auto;
   max-width: 600px;
-  background-color: #fefcf3;
 }
 
 .app-box {
   padding: 20px;
   border: 1px solid rebeccapurple;
   border-radius: 5px;
+  background-color: #fefcf3;
 }
 
 .flexbox .temp-units {
