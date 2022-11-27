@@ -3,14 +3,14 @@ body {
 }
 
 h1 {
-  color: rebeccapurple;
+  color: #dba39a;
   font-weight: 600;
   font-size: 32px;
   line-height: 34px;
 }
 
 strong {
-  color: rebeccapurple;
+  color: #dba39a;
   font-weight: 600;
   font-size: 32px;
   line-height: 34px;
@@ -36,7 +36,7 @@ p {
 
 .app-box {
   padding: 20px;
-  border: 1px solid rebeccapurple;
+  border: 1px solid #dba39a;
   border-radius: 5px;
   background-color: #fefcf3;
 }
@@ -45,6 +45,10 @@ p {
   position: relative;
   font-size: 16px;
   top: -13px;
+}
+
+.btn-color {
+  background-color: #dba39a;
 }
 
 .center-icon {
