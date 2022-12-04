@@ -86,10 +86,12 @@ p {
 
 .weather-forecast-temperatures {
   font-size: 15px;
+  color: #453c67;
 }
 .weather-forecast-temp-min {
   color: #f2f7a1;
 }
+
 #description {
   text-transform: capitalize;
 }
