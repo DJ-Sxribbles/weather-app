@@ -27,6 +27,7 @@ p {
   margin: 0;
   padding: 0;
   font-weight: 500;
+  color: #453c67;
 }
 
 .app-box-wrapper {
@@ -79,12 +80,12 @@ p {
 }
 
 .weather-forecast-date {
-  font-weight: 16px;
+  font-weight: 18px;
   color: #453c67;
 }
 
 .weather-forecast-temperatures {
-  font-size: 13px;
+  font-size: 15px;
 }
 .weather-forecast-temp-min {
   color: #f2f7a1;
