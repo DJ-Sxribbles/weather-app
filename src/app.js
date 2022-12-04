@@ -50,7 +50,8 @@ function displayForecast(response) {
                   src="https://openweathermap.org/img/wn/${
                     forecastDay.weather[0].icon
                   }@2x.png"
-                  alt="weather icon"f
+                  alt="weather icon"
+                  width="42"
                 />
                 <div class="weather-forecast-temperatures">
                   <span class="weather-forecast-temp-max">${Math.round(
