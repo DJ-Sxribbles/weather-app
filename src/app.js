@@ -8,6 +8,7 @@ function formatDate(timestamp) {
   if (minutes < 10) {
     minutes = `0${minutes}`;
   }
+
   let days = [
     "Sunday",
     "Monday",
@@ -49,8 +50,7 @@ function displayForecast(response) {
                   src="http://openweathermap.org/img/wn/${
                     forecastDay.weather[0].icon
                   }@2x.png"
-                  alt="weather icon"
-                  id="icon"
+                  alt="weather icon"f
                 />
                 <div class="weather-forecast-temperatures">
                   <span class="weather-forecast-temp-max">${Math.round(
