@@ -94,7 +94,7 @@ function displayTemperature(response) {
   windElement.innerHTML = Math.round(response.data.wind.speed);
   descriptionElement.innerHTML = response.data.weather[0].description;
   feelsElement.innerHTML = Math.round(response.data.main.feels_like);
-  dateElement.innerHTML = formateDate(response.data.dt * 1000);
+  dateElement.innerHTML = formatDate(response.data.dt * 1000);
   iconElement.setAttribute(
     "src",
     `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
