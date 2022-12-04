@@ -3,14 +3,14 @@ body {
 }
 
 h1 {
-  color: #dba39a;
+  color: #453c67;
   font-weight: 600;
   font-size: 32px;
   line-height: 34px;
 }
 
 strong {
-  color: #dba39a;
+  color: #453c67;
   font-weight: 600;
   font-size: 32px;
   line-height: 34px;
@@ -36,9 +36,9 @@ p {
 
 .app-box {
   padding: 20px;
-  border: 1px solid #dba39a;
+  border: 1px solid #6d67e4;
   border-radius: 5px;
-  background-color: #fefcf3;
+  background-color: #46c2cb;
 }
 
 .flexbox .temp-units {
@@ -48,8 +48,8 @@ p {
 }
 
 .btn-color {
-  color: #fefcf3;
-  background-color: #dba39a;
+  color: #f2f7a1;
+  background-color: #6d67e4;
 }
 
 .center-icon {
@@ -80,14 +80,14 @@ p {
 
 .weather-forecast-date {
   font-weight: 16px;
-  color: #dba39a;
+  color: #453c67;
 }
 
 .weather-forecast-temperatures {
   font-size: 13px;
 }
 .weather-forecast-temp-min {
-  color: #f0dbdb;
+  color: #f2f7a1;
 }
 #description {
   text-transform: capitalize;
