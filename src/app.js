@@ -46,13 +46,13 @@ function displayForecast(response) {
                   forecastDay.dt
                 )}</div>
                 <img
-                  src="https://openweathermap.org/img/wn/${
+                  src="http://openweathermap.org/img/wn/${
                     forecastDay.weather[0].icon
                   }@2x.png"
                   alt="weather icon"
                   id="icon"
                 />
-                <div class="">
+                <div class="weather-forecast-temperatures">
                   <span class="weather-forecast-temp-max">${Math.round(
                     forecastDay.temp.max
                   )}°</span>
@@ -79,7 +79,6 @@ function getForecast(coordinates) {
 function displayTemperature(response) {
   let temperatureElement = document.querySelector("#temperature");
   let cityElement = document.querySelector("#city");
-  ß;
   let humidityElement = document.querySelector("#humidity");
   let windElement = document.querySelector("#wind");
   let descriptionElement = document.querySelector("#description");
